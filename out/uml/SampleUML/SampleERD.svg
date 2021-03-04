@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="217px" preserveAspectRatio="none" style="width:276px;height:217px;" version="1.1" viewBox="0 0 276 217" width="276px" zoomAndPan="magnify"><defs><filter height="300%" id="fkrfpfgnjkj33" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d6181cb537bdc20c0a3007a98a56832d]
+class Student--><rect codeLine="5" fill="#CCCCCC" filter="url(#fkrfpfgnjkj33)" height="106.0234" id="Student" style="stroke:#AAAAAA;stroke-width:1.5;" width="83" x="7" y="97.5"/><ellipse cx="24.85" cy="110.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#AAAAAA;stroke-width:1.0;"/><path d="M25.4906,114.6563 Q24.6,114.6563 23.8344,114.3906 Q23.0844,114.125 22.5375,113.6094 Q22.0063,113.0938 21.6938,112.3125 Q21.3969,111.5313 21.3969,110.5156 Q21.3969,109.5625 21.6781,108.7969 Q21.975,108.0156 22.5219,107.4531 Q23.0375,106.9219 23.8031,106.6406 Q24.5844,106.3438 25.4906,106.3438 Q25.9906,106.3438 26.3969,106.4063 Q26.8031,106.4531 27.1469,106.5469 Q27.5063,106.6563 27.8031,106.7813 Q28.1,106.9063 28.3188,107.0156 L28.3188,108.9531 L28.0844,108.9531 Q27.9281,108.8281 27.6938,108.6563 Q27.475,108.4688 27.1781,108.2969 Q26.8813,108.125 26.5375,108.0156 Q26.1938,107.8906 25.8031,107.8906 Q25.3656,107.8906 24.975,108.0313 Q24.5844,108.1563 24.2563,108.4844 Q23.9438,108.7813 23.7406,109.2969 Q23.5531,109.7969 23.5531,110.5156 Q23.5531,111.2656 23.7563,111.7813 Q23.975,112.2813 24.2875,112.5625 Q24.6156,112.8594 25.0219,112.9844 Q25.4281,113.1094 25.8188,113.1094 Q26.1938,113.1094 26.5531,113 Q26.9281,112.8906 27.2406,112.6875 Q27.5063,112.5469 27.725,112.375 Q27.9594,112.1875 28.1,112.0625 L28.3188,112.0625 L28.3188,113.9688 Q28.0219,114.1094 27.7406,114.2344 Q27.475,114.3438 27.1625,114.4219 Q26.7719,114.5313 26.4281,114.5938 Q26.0844,114.6563 25.4906,114.6563 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="44" x="37.15" y="114.8748">Student</text><line style="stroke:#AAAAAA;stroke-width:1.5;" x1="8" x2="89" y1="123.5" y2="123.5"/><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="11" x="13" y="137.7104">ID</text><line style="stroke:#AAAAAA;stroke-width:1.0;" x1="8" x2="89" y1="144.3047" y2="144.3047"/><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="62" x="13" y="158.5151">First Name</text><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="13" y="171.3198">Last Name</text><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="13" y="184.1245">Date of birth</text><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="13" y="196.9292">Class</text><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><rect codeLine="15" fill="#CCCCCC" filter="url(#fkrfpfgnjkj33)" height="80.4141" id="Class" style="stroke:#AAAAAA;stroke-width:1.5;" width="112" x="150" y="110.5"/><ellipse cx="187" cy="123.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#AAAAAA;stroke-width:1.0;"/><path d="M187.6406,127.6563 Q186.75,127.6563 185.9844,127.3906 Q185.2344,127.125 184.6875,126.6094 Q184.1563,126.0938 183.8438,125.3125 Q183.5469,124.5313 183.5469,123.5156 Q183.5469,122.5625 183.8281,121.7969 Q184.125,121.0156 184.6719,120.4531 Q185.1875,119.9219 185.9531,119.6406 Q186.7344,119.3438 187.6406,119.3438 Q188.1406,119.3438 188.5469,119.4063 Q188.9531,119.4531 189.2969,119.5469 Q189.6563,119.6563 189.9531,119.7813 Q190.25,119.9063 190.4688,120.0156 L190.4688,121.9531 L190.2344,121.9531 Q190.0781,121.8281 189.8438,121.6563 Q189.625,121.4688 189.3281,121.2969 Q189.0313,121.125 188.6875,121.0156 Q188.3438,120.8906 187.9531,120.8906 Q187.5156,120.8906 187.125,121.0313 Q186.7344,121.1563 186.4063,121.4844 Q186.0938,121.7813 185.8906,122.2969 Q185.7031,122.7969 185.7031,123.5156 Q185.7031,124.2656 185.9063,124.7813 Q186.125,125.2813 186.4375,125.5625 Q186.7656,125.8594 187.1719,125.9844 Q187.5781,126.1094 187.9688,126.1094 Q188.3438,126.1094 188.7031,126 Q189.0781,125.8906 189.3906,125.6875 Q189.6563,125.5469 189.875,125.375 Q190.1094,125.1875 190.25,125.0625 L190.4688,125.0625 L190.4688,126.9688 Q190.1719,127.1094 189.8906,127.2344 Q189.625,127.3438 189.3125,127.4219 Q188.9219,127.5313 188.5781,127.5938 Q188.2344,127.6563 187.6406,127.6563 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="31" x="203" y="127.8748">Class</text><line style="stroke:#AAAAAA;stroke-width:1.5;" x1="151" x2="261" y1="136.5" y2="136.5"/><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="11" x="156" y="150.7104">ID</text><line style="stroke:#AAAAAA;stroke-width:1.0;" x1="151" x2="261" y1="157.3047" y2="157.3047"/><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="156" y="171.5151">Class name</text><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="100" x="156" y="184.3198">Class Description</text><!--MD5=[eceda079a953f334a451af9ce441a01a]
+class Bridge--><rect codeLine="22" fill="#CCCCCC" filter="url(#fkrfpfgnjkj33)" height="54.8047" id="Bridge" style="stroke:#AAAAAA;stroke-width:1.5;" width="63" x="17" y="7"/><ellipse cx="29" cy="20" fill="#1A66C2" rx="8" ry="8" style="stroke:#AAAAAA;stroke-width:1.0;"/><path d="M29.6406,24.1563 Q28.75,24.1563 27.9844,23.8906 Q27.2344,23.625 26.6875,23.1094 Q26.1563,22.5938 25.8438,21.8125 Q25.5469,21.0313 25.5469,20.0156 Q25.5469,19.0625 25.8281,18.2969 Q26.125,17.5156 26.6719,16.9531 Q27.1875,16.4219 27.9531,16.1406 Q28.7344,15.8438 29.6406,15.8438 Q30.1406,15.8438 30.5469,15.9063 Q30.9531,15.9531 31.2969,16.0469 Q31.6563,16.1563 31.9531,16.2813 Q32.25,16.4063 32.4688,16.5156 L32.4688,18.4531 L32.2344,18.4531 Q32.0781,18.3281 31.8438,18.1563 Q31.625,17.9688 31.3281,17.7969 Q31.0313,17.625 30.6875,17.5156 Q30.3438,17.3906 29.9531,17.3906 Q29.5156,17.3906 29.125,17.5313 Q28.7344,17.6563 28.4063,17.9844 Q28.0938,18.2813 27.8906,18.7969 Q27.7031,19.2969 27.7031,20.0156 Q27.7031,20.7656 27.9063,21.2813 Q28.125,21.7813 28.4375,22.0625 Q28.7656,22.3594 29.1719,22.4844 Q29.5781,22.6094 29.9688,22.6094 Q30.3438,22.6094 30.7031,22.5 Q31.0781,22.3906 31.3906,22.1875 Q31.6563,22.0469 31.875,21.875 Q32.1094,21.6875 32.25,21.5625 L32.4688,21.5625 L32.4688,23.4688 Q32.1719,23.6094 31.8906,23.7344 Q31.625,23.8438 31.3125,23.9219 Q30.9219,24.0313 30.5781,24.0938 Q30.2344,24.1563 29.6406,24.1563 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="37" x="40" y="24.3748">Bridge</text><line style="stroke:#AAAAAA;stroke-width:1.5;" x1="18" x2="79" y1="33" y2="33"/><text fill="#333333" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="14" x="23" y="47.2104">PK</text><line style="stroke:#AAAAAA;stroke-width:1.5;" x1="18" x2="79" y1="53.8047" y2="53.8047"/><!--MD5=[ff546ffb5c71ad99af99f528ed102e6d]
+link Student to Class--><path codeLine="26" d="M98.6181,150.5 C112.2292,150.5 127.1613,150.5 141.4485,150.5 " fill="none" id="Student-Class" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="141.7712" x2="149.7712" y1="150.5" y2="142.5"/><line style="stroke:#000000;stroke-width:1.0;" x1="141.7712" x2="149.7712" y1="150.5" y2="158.5"/><line style="stroke:#000000;stroke-width:1.0;" x1="141.7712" x2="149.7712" y1="150.5" y2="150.5"/><line style="stroke:#000000;stroke-width:1.0;" x1="101.2936" x2="90.2936" y1="150.5" y2="150.5"/><ellipse cx="101.2936" cy="150.5" fill="none" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="94.2936" x2="94.2936" y1="154.5" y2="146.5"/><!--MD5=[93430e65a80ebda9605225109ec3ce2e]
+@startuml SampleERD
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+left to right direction
+
+class Student {
+    ID
+    - -
+    First Name
+    Last Name
+    Date of birth
+    Class
+}
+
+
+class Class {
+    ID
+    - -
+    Class name
+    Class Description
+}
+
+class Bridge {
+    PK
+}
+
+Student |o- -{ Class
+
+@enduml
+
+@startuml SampleERD
+
+
+
+
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+skinparam backgroundColor fff
+
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  attributeFontColor 333
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor e0e0e0
+  borderColor cccccc
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  lifeLineBorderColor 2a86e2
+  lifeLineBackgroundColor e0e0e0
+}
+
+skinparam boundary {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+  startColor 2a86e2
+  endColor 1a66c2
+}
+
+
+skinparam object {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+left to right direction
+
+class Student {
+    ID
+    - -
+    First Name
+    Last Name
+    Date of birth
+    Class
+}
+
+
+class Class {
+    ID
+    - -
+    Class name
+    Class Description
+}
+
+class Bridge {
+    PK
+}
+
+Student |o- -{ Class
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
