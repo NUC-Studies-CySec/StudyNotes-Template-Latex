@@ -9,6 +9,10 @@ document.out
 document.xml
 document.synctex.gz
 document.toc
+document.idx
+document.ilg
+document.ind
+document.run.xml
 !/out
 !/tex
 !/uml
