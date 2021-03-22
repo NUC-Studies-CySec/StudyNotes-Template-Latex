@@ -356,6 +356,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+OUTPUT /home/operations/Studies/StudyNotes-Template-Latex/document.glo
+OUTPUT /home/operations/Studies/StudyNotes-Template-Latex/document.acn
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/glossary.tex
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/glossary.tex
 OUTPUT /home/operations/Studies/StudyNotes-Template-Latex/document.idx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
@@ -406,6 +410,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx2074.tfm
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/Noroff-Logo.png
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/Noroff-Logo.png
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/Noroff-Logo.png
+OUTPUT /home/operations/Studies/StudyNotes-Template-Latex/document.ist
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.toc
@@ -426,6 +431,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/03_body_section1.tex
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/03_body_section1.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsi1000.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss0700.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -443,8 +449,12 @@ INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/05_appendix.tex
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/05_appendix.tex
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/06_bibliography.tex
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/tex/06_bibliography.tex
-INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.ind
-INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.ind
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.gls
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.gls
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.gls
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.acr
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.acr
+INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.acr
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
 INPUT /home/operations/Studies/StudyNotes-Template-Latex/document.out
@@ -457,6 +467,7 @@ INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfsi1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfso1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfso1440.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfss0700.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfss2074.pfb

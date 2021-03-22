@@ -88,6 +88,11 @@ tabsize=2, % Number of spaces per tab in the code
 % Create a command to cleanly insert a snippet with the style above anywhere in the document
 \newcommand{\insertcode}[2]{\begin{itemize}\item[]\lstinputlisting[caption=#2,label=#1,style=Style1]{#1}\end{itemize}} % The first argument is the script location/filename and the second is a caption for the listing
 
+% Enable use of glossary and acronym indexing using a separate file.
+\makeglossaries
+\input{tex/glossary.tex}
+
+
 % Enable indexing and create an index with following formating
 \makeindex[columns=4, title=Index, intoc]
 
@@ -144,7 +149,14 @@ tabsize=2, % Number of spaces per tab in the code
   \clearpage
   \input{tex/06_bibliography.tex}
 
+  % List of terms
   \newpage
-  \printindex
+  \printglossary[title=Glossary, toctitle=Glossary]\label{sec:glossary}
+
+  \newpage
+  \printglossary[type=\acronymtype]\label{sec:acronym}
+
+  % \newpage
+  % \printindex
   
 \end{document}

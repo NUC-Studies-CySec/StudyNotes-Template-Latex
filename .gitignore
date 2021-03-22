@@ -1,9 +1,18 @@
+# LaTeX ignore file list
+
+document.acn
+document.acr
+document.alg
 document.aux
 document.bbl
 document.bcf
 document.blg
 document.fdb_latexmk
-document.fis
+document.fls
+document.glg
+document.glo
+document.gls
+document.ist
 document.log
 document.out
 document.xml
@@ -13,6 +22,7 @@ document.idx
 document.ilg
 document.ind
 document.run.xml
+
 !/out
 !/tex
 !/uml
@@ -23,3 +33,5 @@ document.run.xml
 !README.md
 !Noroff-Logo.png
 !Noroff-Small-Logo.png
+
+# ------------------------------------------

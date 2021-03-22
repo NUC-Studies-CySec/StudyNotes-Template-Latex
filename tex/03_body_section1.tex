@@ -15,6 +15,12 @@
 % ----> Header informaton section - Start
 \section{Lesson 1: Course Introduction}
 
+\begin{notes}[Typesetting Generic Document Elements]
+    The couple of pages shows uses different \LaTeX commands to typeset a document with the most common text types.
+
+    The document uses; Section, Subsection, quotes, italic, bold etc.
+\end{notes}
+
 Original URL: \url{https://www.noroff.no}
 % <---- Header informaton - End
 
@@ -114,7 +120,13 @@ My personal take on this (to make it relatable to the course) is as follows: A c
 
 % ----> Lessons Learned subsection - Start
 % ----| Write a summary about the day's lesson topic. |----
-\subsection{Lessons Learned}
+\subsection{Lessons Learned}\label{sec:lessons_learned}
+
+\begin{notes}[Typesetting Bullet-points]
+    Examples below use combination of \textbackslash begin statement with \textbackslash itemize environment containing \textbackslash item command to make a bullet-point.
+    
+    The \textbackslash itemize environment can be nested to create a sub-bullet-point. Creating 2 levels of bullet-points.
+\end{notes}
 
 This subsection summarizes the day's lesson topic.
 
@@ -157,9 +169,77 @@ Database systems aims to resolve some data storage issues such as problemetic {\
     \item Itegrity, data consistency
 \end{itemize}
 
+\subsubsection{NIS' objectives}
+
+\begin{notes}[Citations]
+    Examples using the \textbackslash cite command.
+
+    The cite command can automatically populate the Bibliography on page \pageref{sec:bibliography}
+\end{notes}
+
+NIS (\cite{VIIRA2018}) Directive its annexies and Corrigendum (\cite{EuropeanCommission2017}) , a communication by the European Commission to its Member States, the Directive has 3 main objectives:
+
+\begin{notes}[Typesetting Acronyms]
+    Examples using the:
+    \begin{itemize}
+        \item \textbackslash arcshort
+            \begin{itemize}
+                \item The acronym with arcshort: \acrshort{cert}
+            \end{itemize}
+        \item \textbackslash acrslong
+            \begin{itemize}
+                \item The acronym with arclong: \acrlong{cert}
+            \end{itemize}
+        \item \textbackslash acrfull
+            \begin{itemize}
+                \item The acronym with arcfull: \acrfull{cert}
+            \end{itemize}
+    \end{itemize}
+\end{notes}
+
+\begin{itemize}
+    \item Improving nationanl cyber security capabilities,
+    \item Building cooperation at EU level, and
+    \item Promoting a culture of risk management and incident reporting among key economic actors, notably \acrfull{oes} for the maintenance of economic and scietal activities and \acrfull{dsp}.
+\end{itemize}
+
+However, each Member State are expected to expand on the 3 main objectives, and define its \acrshort{ncss} according to each Member State's specific needs and priorities as long as it is never below the requirements and objectives set in the NIS Directive.
+
+\begin{notes}[Typesetting Glossary]
+    Examples using the \textbackslash gls command.
+
+    Using the glossary enables you to use a term inline, and create a Glossary index using the \textbackslash printglossary[title=Glossary, toctitle=Glossary] on page \pageref{sec:glossary}
+
+    Using the glossary also enables you to use a term inline, and create an Acronym index using the \textbackslash printglossary[type=\acronymtype] on page \pageref{sec:acronym}
+
+    \textcolor{red}{Beadvised:} Please make sure to read the official "glossaries" CTAN package. There are some quirks that is nice to be aware of. The most important is the following.
+
+    Rendering a PDF referring to a glossary or acronym that does not exist will result and error.
+
+    To generate the acronym and glossary index correctly, \textcolor{red}{execute sequence below accordingly. Take note that the file name \emph{document} omits the .tex part of the file name.} 
+    
+    \begin{itemize}
+        \item Run the \textcolor{green}{\ttfamily{pdflatex document}} (or simply save the file if you are using VS-Code) to trigger the Glossaries package. The pdflatex will parse all of the \textbackslash gls and \textbackslash acr commands. A reference will be created to be used with the makeglossarie command.
+        \item Run the \textcolor{green}{\ttfamily{makeglossaries document}} to generate an index using the glossary.tex of defined glossaries and acronyms. 
+        \item Re-run the \textcolor{green}{\ttfamily{pdflatex document}} (just save again with VS-Code)to render the DPF with the glossary.tex is used with correct references in the PDF file.
+    \end{itemize}
+\end{notes}
+
+
+We will now use the term \Gls{directive} inline, using the \textbackslash Gls command. Which will use the glossary.tex file and automatically populate the Glossary section on page \pageref{sec:glossary}.
+
+Here we use another term; \gls{transposition}, example using Glossary module. It will be the second item to be listed in the Glossary index
+
+
 {\bfseries{Glossary:}}
 
-\begin{tabular}{p{40mm} | p{120mm}}
+\begin{notes}[Typesetting Table 1]
+    Below is an example of a manually built "Glossary" using the \textbackslash begin statement with the \textbackslash tabular environment to create a table.
+
+    The disadvantage of manually creating a glossary table is that is will not be indexed. 
+\end{notes}
+
+\begin{tabular}{p{40mm} | p{120mm}}[H]
     {\bfseries{Key Word/Expression}} & {\bfseries{Elaboration/Comment}}\\ \hline
     Database & A logical way to organize, store, label and describe relationships of data.\\ \hline
     Third Normal Form & Relational databases. A database schema design see "Other source material" table in section \ref{subsec:source}. Ensures update and insert integrity to the database.\\ \hline
@@ -170,13 +250,19 @@ Database systems aims to resolve some data storage issues such as problemetic {\
     Database Normalization & Structuring a relational database, reduce data duplication and improve data integrity. \\ \hline
 \end{tabular}
 
-\begin{figure}
+\begin{notes}[Typesetting graphics][H]
+    Below are a couple of examples useing the combination of \textbackslash begin statement, \textbackslash figure to create an environment where the \textbackslash includegraphics command is used to insert graphics in a \LaTeX document.
+\end{notes}
+
+{\bfseries{Graphics with .png files}}
+
+\begin{figure}[H]
     \includegraphics[width=\linewidth]{tex/Data_cropped.png}
     \caption{Data Mindmap}
     \label{fig: Data Mindmap}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \includegraphics[width=\linewidth]{tex/Data_cropped2.png}
     \caption{Data Mindmap - with detailed notes expanded}
     \label{fig:Data Mindmap expanded}
@@ -188,6 +274,12 @@ Database systems aims to resolve some data storage issues such as problemetic {\
 % ----> Action-Point subsection - Start
 % ----| To-do list to complete the day's lesson topic. |----
 \subsection{Action Points - Further Reading/Enquiry}
+
+\begin{notes}[Typesetting Table 2]
+    Below are two tables, a "to-do" and a resource list, using the \textbackslash begin statement with the \textbackslash tabular environment to create a table.
+
+    Tables in the examples below are using manually set column formatting. In addition to the "adjustbox" environment.
+\end{notes}
 
 \begin{adjustbox}{max width=\textwidth}
     \begin{tabular}{c|l|l|c|l}
