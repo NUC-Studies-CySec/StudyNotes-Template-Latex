@@ -116,11 +116,12 @@ tabsize=2, % Number of spaces per tab in the code
   % \mainmatter
 
   \newpage
+  \pagenumbering{arabic}
+  \addtocounter{section}{-1}
   \input{tex/02_introduction.tex}
 
-
   \newpage
-  \pagenumbering{arabic}
+  % \pagenumbering{arabic}
   \setcounter{page}{1}
   \input{tex/03_body_section1.tex}
   
@@ -129,8 +130,8 @@ tabsize=2, % Number of spaces per tab in the code
   \input{tex/03_body_section2.tex}
   
   
-  % \newpage
-  % \input{tex/03_body_section3.tex}
+  \newpage
+  \input{tex/03_body_section3.tex}
   
 
   % \newpage
